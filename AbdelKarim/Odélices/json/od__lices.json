@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"4.7.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"od\u00e9lices"},
+{"type":"table","name":"recette","database":"od\u00e9lices","data":
+[
+
+]
+}
+]

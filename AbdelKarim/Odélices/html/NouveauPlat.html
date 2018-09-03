@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>TODO list</h1>
+        
+        <section id="principale">
+            <p>Nouveau Plat</p>
+             <p>
+                <input type="text" name="task" id="task" value="" size="50" class="mandatory" />
+            </p>
+             <p>Description</p>
+            <p>
+                <textarea name="comment" id="comment" cols="50" rows="5" class="mandatory">
+                </textarea>
+            </p>
+            <p>Date de début</p>
+            <p>
+                <input type="date" name="startDate" id="startDate" value="" class="mandatory"/>
+            </p>
+            
+             <p>
+                <input type="button" value="Ajouter" name="btAdd" id="btAdd" class="buttonRondVert"/>
+                &nbsp;&nbsp;&nbsp;
+                <input type="button" value="Rafraîchir" name="btRefresh" id="btRefresh" class="buttonRondVert"/>
+                &nbsp;&nbsp;&nbsp;
+                <!--            <input type="button" value="Modifier" name="btModifier" id="btModifier" class="buttonRondVert"/>-->
+            </p>
+            <label id="lblMessage"></label>
+        </section>
+    
+        
+
+        <script src="../jquery/jquery.js"></script>
+        <script src="../js/test.js"></script>
+    </body>
+</html>
